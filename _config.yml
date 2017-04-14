@@ -1,0 +1,8 @@
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://whereismargo.com/'
+  media: 'assets'
+  ignore:
+    - index.html
+    - _config.yml
+    - /_layouts
