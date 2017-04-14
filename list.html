@@ -2,21 +2,23 @@
 layout: default
 ---
 
-<ul>
-  {% for item in site.posts limit:1000 %}
-    {% assign content = item.content | strip_newlines %}
+<div class="container">
+  <ul>
+    {% for item in site.posts limit:1000 %}
+      {% assign content = item.content | strip_newlines %}
 
-    <li>
-      <span class="date">{{ item.date | date:"%B %d, %Y" }} - </span>
-      <span class="location">
-        {% if content == "" %}
-          {{ item.title }}
-        {% else %}
-          <a class='link' href='{{site.baseurl}}{{item.url}}'>
+      <li>
+        <span class="date">{{ item.date | date:"%B %d, %Y" }} - </span>
+        <span class="location">
+          {% if content == "" %}
             {{ item.title }}
-          </a>
-        {% endif %}
-      </span>
-    </li>
-  {% endfor %}
-<ul>
+          {% else %}
+            <a class='link' href='{{site.baseurl}}{{item.url}}'>
+              {{ item.title }}
+            </a>
+          {% endif %}
+        </span>
+      </li>
+    {% endfor %}
+  <ul>
+</div>
