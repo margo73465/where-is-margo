@@ -3,6 +3,11 @@ layout: default
 ---
 
 <div class="container">
+  <div class="img-container">
+    <a href="/list">
+      <img class="list-icon" src="/assets/list-icon.png" alt="list"/>
+    </a>
+  </div>
   {% for item in site.posts limit:1 %}
     {% assign content = item.content | strip_newlines %}
 
