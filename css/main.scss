@@ -1,7 +1,51 @@
 ---
 ---
 
+body {
+  font-family: Arial, sans-serif;
+}
+
 h1 {
   text-align: center;
-  font-size: 12em;
+  font-size: 14vw;
+}
+
+ul {
+  margin-top: 50px;
+  list-style: none;
+  text-align: center;
+
+  .date {
+    color: #7f7f7f;
+  }
+
+  li {
+    margin-bottom: 12px;
+  }
+}
+
+a {
+  transition: color .4s;
+  color: #265C83;
+}
+
+a:link,
+a:visited { color: #265C83; }
+a:hover   { color: #7FDBFF; }
+a:active  {
+  transition: color .3s;
+  color: #007BE6;
+}
+
+.link { text-decoration: none; }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%
+}
+
+.title {
+  max-width: 80%;
 }
