@@ -1,0 +1,19 @@
+---
+layout: post
+---
+
+{% for item in site.posts limit:1000 %}
+  {% assign content = item.content | strip_newlines %}
+
+  {% if content == "" %}
+    <h1>
+      {{item.title}} - {{item.date | date:"%b %d"}}
+    </h1>
+  {% else %}
+    <a class='item' href='{{site.baseurl}}{{item.url}}'>
+      <h1>
+        {{item.title}} - {{item.date | date:"%b %d"}}
+      </h1>
+    </a>
+  {% endif %}
+{% endfor %}
