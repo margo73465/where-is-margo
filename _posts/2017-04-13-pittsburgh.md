@@ -1,4 +1,9 @@
 ---
 layout: post
-title: Pittsburgh, PA
+title: 'Pittsburgh, PA'
+published: true
 ---
+Obligatory gear post:
+
+
+
