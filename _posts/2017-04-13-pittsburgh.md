@@ -5,5 +5,4 @@ published: true
 ---
 Obligatory gear post:
 
-
-
+![gear.jpg]({{site.baseurl}}/assets/IMG_1734.PNG)
