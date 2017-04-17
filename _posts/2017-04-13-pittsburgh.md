@@ -10,7 +10,7 @@ Obligatory gear post:
 What's in the pic?
 
 Starting from the top left: 
-- camp layers and shoes
-- walking layers and shoes 
-- base layers 
-- poop kit
+* camp layers and shoes
+* walking layers and shoes 
+* base layers 
+* poop kit
