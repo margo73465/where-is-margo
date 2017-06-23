@@ -1,5 +1,5 @@
 ---
 published: true
 layout: post
-title: Harper's Ferry
+title: 'Harper''s Ferry, WV'
 ---
