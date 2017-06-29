@@ -6,7 +6,9 @@ published: true
 Written on the wall of the privy of the Manassas Gap Shelter:
 
 > if you live in the past you are depressed
+
 > if you live in the future you are anxious
+
 > if you live in the present you are at peace
 
 A little something to think about next time you're taking a poop.
